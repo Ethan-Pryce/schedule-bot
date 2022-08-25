@@ -1,0 +1,41 @@
+import React, { useEffect } from 'react';
+import ReactDOM from 'react-dom';
+import UserSlider from './user-slider.js';
+
+
+//class UserPanel extends React.Component {
+function PreferencePanel(props){
+    //users = this.props.users;
+    //const [users, setUsers] = useState(props.users);
+    //console.log("*");
+    //console.log(props.test);
+    //console.log(props.users);
+    //console.log("*");
+    
+    useEffect(() => {
+        //setUsers(props.users);
+        //console.log("An event happened");
+        //console.log(props.users);
+    })
+    
+    
+    function grabNames(rawData){
+        rawData.forEach(element => {
+            //console.log(element.name);
+        });
+    }
+
+    grabNames(props.users);
+    
+    //users = ["bruce" , "clark" , "diana" , "hal", "barry" , "john", "guy", "ollie", "wally", "arthur", "victor", "jon", "nimue", "mari"  ];
+    //users = ["bruce" , "clark" , "diana" , "hal", "barry" , "john", "guy"];
+    const colors = ["silver", "maroon", "red", "purple", "fuchsia", "green", "lime", "olive", "yellow", "navy", "blue", "teal", "aqua", "orange", "aliceblue", "antiquewhite", "aquamarine", "azure", "beige", "bisque", "blanchedalmond", "blueviolet", "brown", "burlywood", "cadetblue", "chartreuse", "chocolate", "coral", "cornflowerblue", "cornsilk", "crimson", "darkblue", "darkcyan", "darkgoldenrod", "darkgray", "darkgreen", "darkgrey", "darkkhaki", "darkmagenta", "darkolivegreen", "darkorange", "darkorchid", "darkred", "darksalmon", "darkseagreen", "darkslateblue", "darkslategray", "darkslategrey", "darkturquoise", "darkviolet", "deeppink", "deepskyblue", "dimgray", "dimgrey", "dodgerblue", "firebrick", "floralwhite", "forestgreen", "gainsboro", "ghostwhite", "gold", "goldenrod", "greenyellow", "grey", "honeydew", "hotpink", "indianred", "indigo", "ivory", "khaki", "lavender", "lavenderblush", "lawngreen", "lemonchiffon", "lightblue", "lightcoral", "lightcyan", "lightgoldenrodyellow", "lightgray", "lightgreen", "lightgrey", "lightpink", "lightsalmon", "lightseagreen", "lightskyblue", "lightslategray", "lightslategrey", "lightsteelblue", "lightyellow", "limegreen", "linen", "mediumaquamarine", "mediumblue", "mediumorchid", "mediumpurple", "mediumseagreen", "mediumslateblue", "mediumspringgreen", "mediumturquoise", "mediumvioletred", "midnightblue", "mintcream", "mistyrose", "moccasin", "navajowhite", "oldlace", "olivedrab", "orangered", "orchid", "palegoldenrod", "palegreen", "paleturquoise", "palevioletred", "papayawhip", "peachpuff", "peru", "pink", "plum", "powderblue", "rosybrown", "royalblue", "saddlebrown", "salmon", "sandybrown", "seagreen", "seashell", "sienna", "skyblue", "slateblue", "slategray", "slategrey", "snow", "springgreen", "steelblue", "tan", "thistle", "tomato", "turquoise", "violet", "wheat", "whitesmoke", "yellowgreen"];
+    //render() {
+        //return <div id='preference'>
+          //  </div>
+    //}
+
+}
+
+
+export default PreferencePanel
