@@ -1,4 +1,4 @@
-Welcome to the display repository for https://schedulebot.net/
+Welcome to the display repository for https://schedule-bot.com/
 This is not the functional code as pieces have been removed for security.
 
 This is a service I provide to help you organize an event with a group of people.
